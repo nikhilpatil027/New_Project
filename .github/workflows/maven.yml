@@ -50,7 +50,7 @@ jobs:
       - name: Upload Artifact to JFrog Artifactory
         run: |
           echo "Uploading artifact to JFrog Artifactory..."
-          curl -u admin:cmVmdGtuOjAxOjE3NjgzOTY5NjA6SHBsRGpVck1ReUtuaTNFRjI2WXE1TGg0Y3lG -T /home/ubuntu/.m2/repository/com/efsavage/hello-world-war/1.0.5/hello-world-war-1.0.5.war  "http://43.205.214.203:8082/artifactory/hello-world-war-libs-release/com/efsavage/hello-world-war/"
+          curl -u admin:cmVmdGtuOjAxOjE3NjgzOTY5NjA6SHBsRGpVck1ReUtuaTNFRjI2WXE1TGg0Y3lG -T /home/ubuntu/.m2/repository/com/example/hello-world-war/1.0.0/hello-world-war-1.0.0.war  "http://43.205.214.203:8082/artifactory/hello-world-war-libs-release/com/efsavage/hello-world-war/"
 
   # Matrix Job: Deployment to Staging and Production (Self-Hosted EC2 with Tomcat installed)
   deploy:
