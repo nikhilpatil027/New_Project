@@ -11,8 +11,8 @@
 <distributionManagement>
     <repository>
         <id>assignment</id>
-        <name>assignment-libs-release</name>
-        <url>http://13.232.193.124:8082/artifactory/assignment-libs-release/</url>
+        <name>hello-world-war-libs-release</name>
+        <url>http:http://43.205.214.203:8082/artifactory/hello-world-war-libs-release/</url>
     </repository>
 </distributionManagement>
 <properties>
