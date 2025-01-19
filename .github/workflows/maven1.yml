@@ -67,7 +67,7 @@ jobs:
           echo "Uploading artifact to JFrog Artifactory..."
           pwd
           ls
-          curl -u admin:cmVmdGtuOjAxOjE3NjgzOTY5NjA6SHBsRGpVck1ReUtuaTNFRjI2WXE1TGg0Y3lG -T target/hello-world-war-1.0.*.war  "http://13.232.68.164:8082/artifactory/New_Project-libs-release//com/efsavage/hello-world-war/"
+          curl -u admin:cmVmdGtuOjAxOjE3NjgzOTY5NjA6SHBsRGpVck1ReUtuaTNFRjI2WXE1TGg0Y3lG -T target/hello-world-war-1.0.*.war  "http://13.232.68.164:8082/artifactory/New_Project-libs-release/com/efsavage/hello-world-war/"
 
   # Matrix Job: Deployment to Staging and Production (Self-Hosted EC2 with Tomcat installed)
   deploy:
